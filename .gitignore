@@ -1,0 +1,48 @@
+# Unity auto generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]ser[Ss]ettings/
+
+# Asset metadata should only be ignored if the asset itself is ignored
+!/[Aa]ssets/**/*.meta
+
+# Visual Studio and IDE generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports
+sysinfo.txt
+
+# Compiled builds and packages
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# OS generated files
+.DS_Store
+Thumbs.db
+/.vs/
