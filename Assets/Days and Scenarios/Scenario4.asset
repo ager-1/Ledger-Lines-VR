@@ -14,3 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: Remedial classes just finished, and you have two grueling
     hours of sports training ahead on an empty stomach.
+  options:
+  - optionText: Buy a specialty cheese waffle and a canned energy drink from the
+      trendy cafe nearby.
+    cost: 8.2
+    difficultyLevel: 1
+  - optionText: Buy a steamed bun and soy milk from the convenience store.
+    cost: 3.2
+    difficultyLevel: 2
+  - optionText: Drink cold water from your reusable flask and eat the crackers you
+      packed from home.
+    cost: 0
+    difficultyLevel: 3

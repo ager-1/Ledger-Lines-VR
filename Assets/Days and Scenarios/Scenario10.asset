@@ -14,3 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: You are mugging at the regional library until closing time
     for national exams, and your concentration is slipping.
+  options:
+  - optionText: Buy a large iced flavored latte from the library cafe.
+    cost: 7.9
+    difficultyLevel: 1
+  - optionText: Buy a canned black coffee from the beverage vending machine.
+    cost: 1.8
+    difficultyLevel: 2
+  - optionText: Wash your face in the restroom, do a five minute brisk walk, and
+      refill cold water.
+    cost: 0
+    difficultyLevel: 3

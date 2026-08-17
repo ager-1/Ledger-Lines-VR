@@ -14,3 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: The school canteen is packed due to combined lunch periods,
     and your friends want to order food delivery to the side gate.
+  options:
+  - optionText: Order fast food delivery including platform delivery and small order
+      fees.
+    cost: 15
+    difficultyLevel: 1
+  - optionText: Walk five minutes to the nearby housing board estate coffeeshop for
+      mixed vegetable rice.
+    cost: 4.5
+    difficultyLevel: 2
+  - optionText: Wait in the canteen queue for the economic bee hoon stall.
+    cost: 2.2
+    difficultyLevel: 3

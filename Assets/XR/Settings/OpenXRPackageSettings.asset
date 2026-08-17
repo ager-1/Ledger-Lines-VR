@@ -35,11 +35,11 @@ MonoBehaviour:
   m_Name: AndroidMouseInteractionProfile Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.AndroidMouseInteractionProfile
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Android Mouse Interaction Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.androidmouse
+  openxrExtensionStrings: XR_ANDROID_mouse_interaction
+  company: Unity
   priority: 0
   targetOpenXRApiVersion: 
   required: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
   - {fileID: 2339492524622712135}
   - {fileID: -3768717797535265320}
   - {fileID: 7365591436348607579}
-  - {fileID: 2307727098831348640}
+  - {fileID: 3928308218954978758}
   - {fileID: -778607980373371102}
   - {fileID: -2759929808507375953}
   - {fileID: 8121169998626859161}
@@ -260,11 +260,11 @@ MonoBehaviour:
   m_Name: ApiLayersFeature Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.ApiLayersFeature
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: API Layers
+  version: 1.0.0
+  featureIdInternal: com.unity.openxr.feature.apilayers
   openxrExtensionStrings: 
-  company: 
+  company: Unity
   priority: 0
   targetOpenXRApiVersion: 
   required: 0
@@ -671,11 +671,13 @@ MonoBehaviour:
   m_Name: FoveatedRenderingFeature Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.FoveatedRenderingFeature
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
+  nameUi: Foveated Rendering
+  version: 1
+  featureIdInternal: com.unity.openxr.feature.foveatedrendering
+  openxrExtensionStrings: XR_UNITY_foveation XR_FB_foveation XR_FB_foveation_configuration
+    XR_FB_swapchain_update_state XR_FB_foveation_vulkan XR_META_foveation_eye_tracked
+    XR_META_vulkan_swapchain_create_info
+  company: Unity
   priority: 0
   targetOpenXRApiVersion: 
   required: 0
@@ -1041,7 +1043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
   m_Name: HandTracking Standalone
   m_EditorClassIdentifier: Unity.XR.Hands::UnityEngine.XR.Hands.OpenXR.HandTracking
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking Subsystem
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtrackingsubsystem
@@ -1065,11 +1067,11 @@ MonoBehaviour:
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
+  nameUi: Oculus Touch Controller Profile
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.oculustouch
   openxrExtensionStrings: 
-  company: 
+  company: Unity
   priority: 0
   targetOpenXRApiVersion: 
   required: 0
@@ -1151,27 +1153,27 @@ MonoBehaviour:
   features:
   - {fileID: 5330972388745135239}
   - {fileID: 5294879801335099129}
-  - {fileID: 5618278640911322188}
+  - {fileID: 8784106206240303024}
   - {fileID: -8127285482358143486}
   - {fileID: -5961595343958381045}
-  - {fileID: -4062813394613906054}
-  - {fileID: -4417639233298351319}
-  - {fileID: 5406925186512810253}
-  - {fileID: 310943913238434748}
+  - {fileID: -2608880536725046606}
+  - {fileID: 7131615861578494572}
+  - {fileID: 7337201506445733499}
+  - {fileID: 4063332919512409615}
   - {fileID: 8701264289466281049}
   - {fileID: 6376493156178438660}
-  - {fileID: -3119370934764311854}
+  - {fileID: 6378359460603546496}
   - {fileID: 8016926320499267469}
   - {fileID: -2251324209060554888}
   - {fileID: -594907214487129363}
   - {fileID: 8645946165951828443}
   - {fileID: 7274518830838034307}
-  - {fileID: -9200532809545872823}
-  - {fileID: -5270780401881435096}
+  - {fileID: 8615239496886940503}
+  - {fileID: 6170079609479363318}
   - {fileID: -4683879791528296918}
   - {fileID: 7617611760772425944}
   - {fileID: -2004646625441219322}
-  - {fileID: -7845066336212319858}
+  - {fileID: -660591836998119095}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
@@ -1404,7 +1406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f028123e2efe1d443875bc7609b4a98b, type: 3}
   m_Name: PalmPoseInteraction Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.PalmPoseInteraction
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Palm Pose
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.palmpose
@@ -1470,7 +1472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
   m_Name: MetaHandTrackingAim Standalone
   m_EditorClassIdentifier: Unity.XR.Hands::UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Hand Tracking Aim
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
@@ -1514,7 +1516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a24be4b5ebfe5f4d8ed1de9b25cb7aa, type: 3}
   m_Name: HandCommonPosesInteraction Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.HandCommonPosesInteraction
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Poses
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteractionposes
@@ -1559,7 +1561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5019471fb2174e5c852ecd4047163007, type: 3}
   m_Name: HandInteractionProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.HandInteractionProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteraction
@@ -1715,7 +1717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch

@@ -14,3 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: You accidentally spilled permanent printer ink onto your white
     uniform shirt during design class.
+  options:
+  - optionText: Buy a brand new replacement uniform top from the school bookshop.
+    cost: 19
+    difficultyLevel: 1
+  - optionText: Buy a stain removal stick from the supermarket.
+    cost: 4.5
+    difficultyLevel: 2
+  - optionText: Head straight to the school restroom and scrub the fresh ink using
+      hand soap and cold water.
+    cost: 0
+    difficultyLevel: 3

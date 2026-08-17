@@ -14,3 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: A seasonal cosmetic skin bundle is released in your favorite
     mobile game, available for only 24 hours.
+  options:
+  - optionText: 'Top up game credits instantly with a saved payment card. '
+    cost: 14.98
+    difficultyLevel: 1
+  - optionText: Buy only the smallest micro bundle to get basic event tokens.
+    cost: 3.98
+    difficultyLevel: 2
+  - optionText: Resist the digital purchase and grind the free event quests over
+      the weekend.
+    cost: 0
+    difficultyLevel: 3

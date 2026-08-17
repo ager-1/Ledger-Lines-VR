@@ -14,3 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: You need vanguard sheets and markers for a graded visual presentation
     due tomorrow morning.
+  options:
+  - optionText: Buy a brand new premium art kit from the mall stationery boutique.
+    cost: 16
+    difficultyLevel: 1
+  - optionText: Buy individual basic sheets and standard markers at the neighborhood
+      bookshop.
+    cost: 6.5
+    difficultyLevel: 2
+  - optionText: Use recycled cardboard from home and borrow spare markers from the
+      school library makerspace.
+    cost: 0
+    difficultyLevel: 3

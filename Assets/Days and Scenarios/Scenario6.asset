@@ -14,3 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: A sudden storm hits as school dismisses. The covered walkway
     is crowded, the rain is blowing sideways, and feeder buses are delayed.
+  options:
+  - optionText: Book a Grab ride home immediately with wet weather surge pricing.
+    cost: 22
+    difficultyLevel: 1
+  - optionText: Buy a sturdy umbrella from the 7 Eleven store and walk to the MRT
+      station.
+    cost: 7.5
+    difficultyLevel: 2
+  - optionText: Wait out the storm in the school foyer for forty minutes until regular
+      bus intervals resume.
+    cost: 1.2
+    difficultyLevel: 3

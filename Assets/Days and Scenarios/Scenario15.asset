@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd09398eff86184593592916e2b90ef, type: 3}
+  m_Name: Scenario15
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
+  scenarioDescription: You left your primary revision workbook inside your classroom
+    locker, and you need it for weekend study.
+  options:
+  - optionText: Book a round trip Grab ride to retrieve it before the school compound
+      closes for the night.
+    cost: 24
+    difficultyLevel: 1
+  - optionText: Take the public bus both ways before evening.
+    cost: 2.8
+    difficultyLevel: 2
+  - optionText: Message a reliable classmate to take clear phone photos of the required
+      practice questions.
+    cost: 0
+    difficultyLevel: 3

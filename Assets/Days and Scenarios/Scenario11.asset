@@ -14,3 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: You have only thirty minutes to eat between afternoon remedial
     lessons and evening tuition.
+  options:
+  - optionText: Buy an extra value meal at the fast food counter near the MRT station.
+    cost: 9.8
+    difficultyLevel: 1
+  - optionText: Buy two baked buns from a neighborhood bakery.
+    cost: 3.4
+    difficultyLevel: 2
+  - optionText: Travel straight home to eat the home cooked dinner prepared by your
+      family.
+    cost: 0
+    difficultyLevel: 3

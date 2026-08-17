@@ -14,3 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: Your classmates are walking to the air conditioned shopping
     mall across the road instead of eating at the school canteen.
+  options:
+  - optionText: Join them for a cafe meal and a large cup of bubble tea.
+    cost: 14.5
+    difficultyLevel: 1
+  - optionText: Buy a basic plate of chicken rice at the mall food court.
+    cost: 5.8
+    difficultyLevel: 2
+  - optionText: Stay in school, buy a subsidized meal from the canteen noodles stall,
+      and walk over to meet them after.
+    cost: 2.5
+    difficultyLevel: 3

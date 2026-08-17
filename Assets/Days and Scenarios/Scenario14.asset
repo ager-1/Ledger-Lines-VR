@@ -13,3 +13,13 @@ MonoBehaviour:
   m_Name: Scenario14
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: The class decides to end the week with a communal meal outside.
+  options:
+  - optionText: Join them for a personal hotpot or buffet dinner.
+    cost: 28
+    difficultyLevel: 1
+  - optionText: Go along to a hawker center and split shared side dishes like satay.
+    cost: 9
+    difficultyLevel: 2
+  - optionText: Order an individual bowl of fish soup or ban mian at the hawker center.
+    cost: 4
+    difficultyLevel: 3

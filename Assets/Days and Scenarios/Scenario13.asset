@@ -14,3 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioDescription: Your study group wants to head to the shopping mall arcade
     and karaoke parlor to celebrate finishing the week.
+  options:
+  - optionText: Buy a bucket of arcade tokens and two hours of karaoke singing.
+    cost: 25
+    difficultyLevel: 1
+  - optionText: Hang out with the group, purchase a few game tokens, and spectate
+      the rest.
+    cost: 6
+    difficultyLevel: 2
+  - optionText: Suggest bringing board games to the community center lounge or school
+      courtyard.
+    cost: 0
+    difficultyLevel: 3
