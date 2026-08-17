@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Days.unity
     guid: 782423b753b920f4da177902e4616534
-  - enabled: 1
-    path: Assets/Scenes/Scenarios.unity
-    guid: 2e734e89008e44045b761c11c520fa4e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 30f83976f0e197247a4f9baaa6856203, type: 2}

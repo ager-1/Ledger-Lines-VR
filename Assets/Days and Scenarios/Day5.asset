@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba369697297ec747963ff4981ebe7f6, type: 3}
+  m_Name: Day5
+  m_EditorClassIdentifier: Assembly-CSharp::DayData
+  scenarios:
+  - {fileID: 11400000, guid: d44fe1c54cc36ee47ac15591f7376f1d, type: 2}
+  - {fileID: 11400000, guid: 581701da5b58c374eaa1ea25d4012c6b, type: 2}
+  - {fileID: 11400000, guid: 2ed521aa2e50cdd45b5c7230381464e2, type: 2}
