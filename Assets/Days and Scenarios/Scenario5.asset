@@ -19,7 +19,7 @@ MonoBehaviour:
       phone app.
     cost: 10
     difficultyLevel: 1
-  - optionText: urchase a 24 hour daily micro data pass.
+  - optionText: Purchase a 24 hour daily micro data pass.
     cost: 3
     difficultyLevel: 2
   - optionText: Wait until you reach the public community library to log into the

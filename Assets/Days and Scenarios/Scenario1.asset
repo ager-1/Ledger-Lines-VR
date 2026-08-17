@@ -19,9 +19,9 @@ MonoBehaviour:
     cost: 18
     difficultyLevel: 1
   - optionText: Jog to the MRT station and catch the express train.
-    cost: 0
+    cost: 0.95
     difficultyLevel: 2
   - optionText: Take the regular feeder bus and sprint the final 400 meters from
       the bus stop.
-    cost: 0.95
+    cost: 0.5
     difficultyLevel: 3
