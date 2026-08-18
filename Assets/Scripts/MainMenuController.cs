@@ -29,6 +29,10 @@ public class MainMenuController : MonoBehaviour
 
         SceneManager.LoadScene("New_Month");
     }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Start Menu");
+    }
 
     public void ExitGame()
     {
