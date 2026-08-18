@@ -13,7 +13,7 @@ public class DayProgressionManager : MonoBehaviour
     private int currentScenarioIndex = 0;
 
     public OptionNode[] choiceNodes;
-
+    public TipBotManager tipBot;
     void Start()
     {
         currentDayIndex = PlayerPrefs.GetInt("SavedDay", 0);
@@ -35,6 +35,10 @@ public class DayProgressionManager : MonoBehaviour
         ScenarioData currentScenario = today.scenarios[currentScenarioIndex];
 
         scenarioDisplayText.text = "Day " + (currentDayIndex + 1) + "\n\n" + currentScenario.scenarioDescription;
+        if (tipBot != null)
+        {
+            tipBot.PlayTip(currentDayIndex, currentScenarioIndex);
+        }
 
         for (int i = 0; i < 3; i++)
         {
@@ -97,6 +101,7 @@ public class DayProgressionManager : MonoBehaviour
                 "FINANCIALLY SECURE";
 
             scenarioDisplayText.color = Color.green;
+            if (tipBot != null) tipBot.PlayEmergencyOutcome(true);
         }
         else
         {
@@ -110,6 +115,7 @@ public class DayProgressionManager : MonoBehaviour
                 "IN DEBT";
 
             scenarioDisplayText.color = Color.red;
+            if (tipBot != null) tipBot.PlayEmergencyOutcome(false);
         }
     }
 }
