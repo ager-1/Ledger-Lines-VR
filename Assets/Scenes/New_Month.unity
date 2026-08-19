@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 246351912}
   - component: {fileID: 246351918}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: BackToMainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10344,7 +10344,7 @@ GameObject:
   - component: {fileID: 1806234190}
   - component: {fileID: 1806234192}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Numpad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10766,7 +10766,7 @@ GameObject:
   - component: {fileID: 1829689556}
   - component: {fileID: 1829689555}
   m_Layer: 0
-  m_Name: Global Volume (1)
+  m_Name: Global Volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

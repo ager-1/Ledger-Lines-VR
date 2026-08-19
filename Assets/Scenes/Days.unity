@@ -3704,7 +3704,7 @@ GameObject:
   - component: {fileID: 744238885}
   - component: {fileID: 744238884}
   m_Layer: 0
-  m_Name: Global Volume (1)
+  m_Name: Global Volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6461,7 +6461,7 @@ GameObject:
   - component: {fileID: 1465730937}
   - component: {fileID: 1465730936}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: BackToMainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
